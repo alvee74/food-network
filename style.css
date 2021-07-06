@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.home{
+    display: flex;
+    margin: auto;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+span{
+    color: orangered;
+}
+.hero-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.about{
+    display: flex;
+    margin: auto;
+    background-image: url(images/frame.png);
+    background-repeat: no-repeat;
+}
+.down{
+    margin-top: 100px;
+}
+.recipies-text{
+    text-align: center;
+}
+.flexbox-container{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.recipies{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.recipie-title{
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    text-align: left;
+    border-radius: 5%;
+    box-shadow: 0 0 20px 0px gray;
+    padding: 2%;
+    margin: 2%;
+}
+.recipie-title img{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+footer{
+    text-align: center;
+    background-color: rgb(12, 11, 11);
+    color: rgb(248, 248, 248);
+    padding: 5%;
+}
